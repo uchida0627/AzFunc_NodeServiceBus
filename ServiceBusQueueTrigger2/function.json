@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "myinputqueue2",
+      "connection": "uchi-winNode-Bus2_RootManageSharedAccessKey_SERVICEBUS"
+    }
+  ]
+}
